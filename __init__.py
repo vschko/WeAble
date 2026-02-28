@@ -1,11 +1,117 @@
+"""
+	Call analyse_all 
+"""
+
+import json
 import struct
 from binaryninja import *
 
 METACLASS_ALLOC_OFF = 0x68
-EXT_METHOD_OFF = 0x540
+EXT_METHOD_OFF = 0x540 # x1 -> sel?
+NEW_UC_OFF = 0x460     # x3 -> type
 
 def unsigned(val, bits=64):
     return val & ((1 << bits) - 1)
+
+
+class IClass:
+	this_addr: int
+	p_addr: int
+	vtable_addr: int
+	this_vtable_addr: int
+	name: str
+	sz: int 
+	src: int
+	origin_kext: str
+
+	def __init__(self, this_addr: int, p_addr: int, name: str, sz: int, bv = None):
+		self.p_addr = p_addr
+		self.name = name
+		self.sz = sz
+		self.parent = None
+		self.vtable_addr = 0x0
+		self.this_vtable_addr = 0
+		self.src = 0
+		self.origin_kext = ''
+
+		self.this_addr = this_addr
+		if bv:
+			self._try_set_origin_kext(bv, self.this_addr)
+
+	def set_vtable(self, vtable_addr: int):
+		self.vtable_addr = vtable_addr
+
+	def set_parent(self, p):
+		self.parent = p
+
+	def set_src(self, src: int, bv=None):
+		self.src = src
+
+		if bv and self.src > 0:
+			self._try_set_origin_kext(bv, self.src)
+
+	def set_this_vtable(self, bv: BinaryView):
+		if self.vtable_addr == 0:
+			return
+
+		alloc_vt = self.vtable_addr+METACLASS_ALLOC_OFF
+		alloc_ptr = bv.read_pointer(alloc_vt)		
+		if res := find_class_vtable_from_alloc(bv, alloc_ptr):
+			self.this_vtable_addr = res
+			
+			self._try_set_origin_kext(bv, self.vtable_addr)			
+			if self.this_vtable_addr > 0:
+				self._try_set_origin_kext(bv, self.this_vtable_addr)
+	
+	def get_this_vtable_struct(self, bv: BinaryView):
+		if self.this_vtable_addr == 0x0:
+			raise Exception('can\'t build struct for vtable=0x0')
+		
+		curr = self.this_vtable_addr
+		while bv.read_pointer(curr) != 0:
+			curr += bv.address_size
+		entries = (curr - self.this_vtable_addr)//bv.address_size
+		print(f'Counted {entries} entries')
+
+		functions = [f'void (*func_{hex(i)})();' for i in range(entries)]
+		self.__apply_known_schemas(bv, functions)
+
+		inner = '\n\t\t'.join(functions)
+		c_struct = f"struct VT_{self.name} {{{inner}}};"
+		return c_struct
+	
+	def __apply_known_schemas(self, bv: BinaryView, funcs: list[str]):
+		pass
+
+	def _try_set_origin_kext(self, bv: BinaryView, addr: int, last=False):
+		sections = bv.get_sections_at(addr)
+		if len(sections) > 1: 
+			raise Exception(f'In normal world addr should be related to one kext: got {sections}')
+		
+		if len(sections) == 0:
+			if last and len(self.origin_kext) == 0:
+				raise Exception(f'Last attempt to get origin kext failed: class={self.name}')
+			return
+		
+		section_name = sections[0].name
+		#in modern world sections look like "com.apple.driver.ASIOKit::__DATA_CONST.__const"
+		kext_name = section_name.split('::')[0]
+
+		# Just one more canary
+		if len(self.origin_kext) > 0 and self.origin_kext != kext_name:
+			raise Exception(f'Addresses of one Kext divergent: new={kext_name} old={self.origin_kext}')
+		
+		self.origin_kext = kext_name
+
+	def get_externalMethod_addr(self, bv: BinaryView):
+		if self.this_vtable_addr > 0:
+			v = bv.read_pointer(self.this_vtable_addr + EXT_METHOD_OFF)
+			return v
+
+	def get_new_uc_addr(self, bv: BinaryView):
+		if self.this_vtable_addr > 0:
+			v = bv.read_pointer(self.this_vtable_addr + NEW_UC_OFF)
+			return v
 
 
 def get_u_reg_value_at(func, addr, reg_name):
@@ -159,63 +265,6 @@ def reg_value(reg: lowlevelil.LowLevelILReg):
 		raise Exception("Unknown type of value!")
 
 	return unsigned(real_v)
-
-
-class IClass:
-	this_addr: int
-	p_addr: int
-	parent: IClass | None
-	vtable_addr: int
-	this_vtable_addr: int
-	name: str
-	sz: int 
-
-	def __init__(self, this_addr: int, p_addr: int, name: str, sz: int):
-		self.this_addr = this_addr
-		self.p_addr = p_addr
-		self.name = name
-		self.sz = sz
-		self.parent = None
-		self.vtable_addr = 0x0
-		self.this_vtable_addr = 0 
-
-	def set_vtable(self, vtable_addr: int):
-		self.vtable_addr = vtable_addr
-	
-	def set_parent(self, p: IClass):
-		self.parent = p
-
-	def set_src(self, src: int):
-		self.src = src
-
-	def set_this_vtable(self, bv: BinaryView):
-		if self.vtable_addr == 0:
-			return
-
-		alloc_vt = self.vtable_addr+METACLASS_ALLOC_OFF
-		alloc_ptr = bv.read_pointer(alloc_vt)		
-		if res := find_class_vtable_from_alloc(bv, alloc_ptr):
-			self.this_vtable_addr = res
-	
-	def get_this_vtable_struct(self, bv: BinaryView):
-		if self.this_vtable_addr == 0x0:
-			raise Exception('can\'t build struct for vtable=0x0')
-		
-		curr = self.this_vtable_addr
-		while bv.read_pointer(curr) != 0:
-			curr += bv.address_size
-		entries = (curr - self.this_vtable_addr)//bv.address_size
-		print(f'Counted {entries} entries')
-
-		functions = [f'void (*func_{hex(i)})();' for i in range(entries)]
-		self.__apply_known_schemas(bv, functions)
-
-		c_struct = f"""struct VT_{self.name} {{
-			{'\n\t\t'.join(functions)}\n}};"""
-		return c_struct
-	
-	def __apply_known_schemas(self, bv: BinaryView, funcs: list[str]):
-		pass
 			
 
 BASE_ICLASS = IClass(0x0, 0x0, "OSNullClass", 0x0)
@@ -272,7 +321,7 @@ class ClassRegistry:
 		roots.sort(key=lambda c: c.name)
 
 		def _print(cls: IClass, depth: int):
-			print(f"{'\t' * depth}{cls.name} (sz={hex(cls.sz)}, MVT={hex(cls.vtable_addr)}, VT={hex(cls.this_vtable_addr)})")
+			#print(f"{'\t' * depth}{cls.name} (sz={hex(cls.sz)}, MVT={hex(cls.vtable_addr)}, VT={hex(cls.this_vtable_addr)})")
 			kids = children.get(cls.this_addr, [])
 			kids.sort(key=lambda c: c.name)
 			for child in kids:
@@ -305,7 +354,32 @@ class ClassRegistry:
 
 		_collect(cls)
 		return result
+	
+	def dump(self, path='/tmp/registry.json'):
+		osc = []
 
+		# name, all parents (right to left ->), origin_kext, real_vtable_addr
+		for osclass in self.secondaryRegistry.values():
+			print(osclass)
+			parents = []
+			
+			if osclass.parent:
+				curr = osclass.parent
+				while curr.name != 'OSNullClass':
+					parents.append(curr.name)
+					curr = curr.parent
+			
+			dump_osclass = {
+				'class_name': osclass.name,
+				'origin': osclass.origin_kext,
+				'parents': parents,
+				'vtable_addr': osclass.this_vtable_addr
+			}
+			osc.append(dump_osclass)
+			
+		with open(path, 'w') as fd:
+			fd.write(json.dumps(osc))
+		print('done')
 
 reg = ClassRegistry()
 
@@ -343,9 +417,9 @@ def analyse_static_initializer(bv: BinaryView, ptr: int):
 					# There are some zone_create_ext calls also inside
 					continue
 				
-				n_cls = IClass(x0, x2, className.value, x3)
+				n_cls = IClass(x0, x2, className.value, x3, bv)
 				memo[x0] = n_cls
-				n_cls.set_src(ptr)
+				n_cls.set_src(ptr, bv)
 				reg.add(n_cls)
 			
 			elif instr.operation == LowLevelILOperation.LLIL_STORE:

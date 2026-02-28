@@ -1,0 +1,32 @@
+{
+  "name": "IOPMPowerStateQueue",
+  "vtable_entries": [
+    "IOPMPowerStateQueue::~IOPMPowerStateQueue",
+    "IOPMPowerStateQueue::~IOPMPowerStateQueue",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOPMPowerStateQueue::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOEventSource::free",
+    "IOPMPowerStateQueue::init",
+    "IOPMPowerStateQueue::checkForWork",
+    "IOEventSource::setWorkLoop",
+    "IOEventSource::setNext",
+    "IOEventSource::getNext",
+    "IOEventSource::setAction",
+    "IOEventSource::getAction",
+    "IOEventSource::enable",
+    "IOEventSource::disable",
+    "IOEventSource::isEnabled",
+    "IOEventSource::getWorkLoop",
+    "IOEventSource::onThread"
+  ]
+}

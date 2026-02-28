@@ -1,0 +1,30 @@
+{
+  "name": "IORegistryIterator",
+  "vtable_entries": [
+    "IORegistryIterator::~IORegistryIterator",
+    "IORegistryIterator::~IORegistryIterator",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IORegistryIterator::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IORegistryIterator::free",
+    "IORegistryIterator::reset",
+    "IORegistryIterator::isValid",
+    "IORegistryIterator::getNextObject",
+    "IORegistryIterator::getNextObjectFlat",
+    "IORegistryIterator::getNextObjectRecursive",
+    "IORegistryIterator::getCurrentEntry",
+    "IORegistryIterator::enterEntry",
+    "IORegistryIterator::enterEntry",
+    "IORegistryIterator::exitEntry",
+    "IORegistryIterator::iterateAll"
+  ]
+}

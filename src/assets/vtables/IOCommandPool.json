@@ -1,0 +1,26 @@
+{
+  "name": "IOCommandPool",
+  "vtable_entries": [
+    "IOCommandPool::~IOCommandPool",
+    "IOCommandPool::~IOCommandPool",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOCommandPool::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOCommandPool::free",
+    "IOCommandPool::initWithWorkLoop",
+    "IOCommandPool::init",
+    "IOCommandPool::getCommand",
+    "IOCommandPool::returnCommand",
+    "IOCommandPool::gatedGetCommand",
+    "IOCommandPool::gatedReturnCommand"
+  ]
+}

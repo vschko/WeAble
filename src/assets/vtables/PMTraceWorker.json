@@ -1,0 +1,20 @@
+{
+  "name": "PMTraceWorker",
+  "vtable_entries": [
+    "PMTraceWorker::~PMTraceWorker",
+    "PMTraceWorker::~PMTraceWorker",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "PMTraceWorker::serialize",
+    "PMTraceWorker::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSObject::free"
+  ]
+}

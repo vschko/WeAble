@@ -1,0 +1,24 @@
+{
+  "name": "_IOServiceNotifier",
+  "vtable_entries": [
+    "_IOServiceNotifier::~_IOServiceNotifier",
+    "_IOServiceNotifier::~_IOServiceNotifier",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "_IOServiceNotifier::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "_IOServiceNotifier::free",
+    "_IOServiceNotifier::remove",
+    "_IOServiceNotifier::disable",
+    "_IOServiceNotifier::enable",
+    "_IOServiceNotifier::wait"
+  ]
+}

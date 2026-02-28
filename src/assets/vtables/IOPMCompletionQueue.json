@@ -1,0 +1,33 @@
+{
+  "name": "IOPMCompletionQueue",
+  "vtable_entries": [
+    "IOPMCompletionQueue::~IOPMCompletionQueue",
+    "IOPMCompletionQueue::~IOPMCompletionQueue",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOPMCompletionQueue::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOEventSource::free",
+    "IOEventSource::init",
+    "IOPMCompletionQueue::checkForWork",
+    "IOEventSource::setWorkLoop",
+    "IOEventSource::setNext",
+    "IOEventSource::getNext",
+    "IOEventSource::setAction",
+    "IOEventSource::getAction",
+    "IOEventSource::enable",
+    "IOEventSource::disable",
+    "IOEventSource::isEnabled",
+    "IOEventSource::getWorkLoop",
+    "IOEventSource::onThread",
+    "IOPMCompletionQueue::init"
+  ]
+}

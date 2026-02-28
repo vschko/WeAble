@@ -1,0 +1,28 @@
+{
+  "name": "IOSharedDataQueue",
+  "vtable_entries": [
+    "IOSharedDataQueue::~IOSharedDataQueue",
+    "IOSharedDataQueue::~IOSharedDataQueue",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOSharedDataQueue::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOSharedDataQueue::free",
+    "IODataQueue::sendDataAvailableNotification",
+    "IOSharedDataQueue::initWithCapacity",
+    "IODataQueue::initWithEntries",
+    "IOSharedDataQueue::enqueue",
+    "IODataQueue::setNotificationPort",
+    "IOSharedDataQueue::getMemoryDescriptor",
+    "IOSharedDataQueue::peek",
+    "IOSharedDataQueue::dequeue"
+  ]
+}

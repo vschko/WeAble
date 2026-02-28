@@ -1,0 +1,20 @@
+{
+  "name": "IOEventLink",
+  "vtable_entries": [
+    "IOEventLink::~IOEventLink",
+    "IOEventLink::~IOEventLink",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOEventLink::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "IOEventLink::Dispatch",
+    "IOEventLink::init",
+    "IOEventLink::free"
+  ]
+}

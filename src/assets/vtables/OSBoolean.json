@@ -1,0 +1,24 @@
+{
+  "name": "OSBoolean",
+  "vtable_entries": [
+    "OSBoolean::~OSBoolean",
+    "OSBoolean::~OSBoolean",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSBoolean::serialize",
+    "OSBoolean::getMetaClass",
+    "OSBoolean::isEqualTo",
+    "OSBoolean::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSBoolean::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSBoolean::free",
+    "OSBoolean::isTrue",
+    "OSBoolean::isFalse",
+    "OSBoolean::getValue",
+    "OSBoolean::isEqualTo"
+  ]
+}

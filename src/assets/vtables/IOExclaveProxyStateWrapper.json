@@ -1,0 +1,20 @@
+{
+  "name": "IOExclaveProxyStateWrapper",
+  "vtable_entries": [
+    "IOExclaveProxyStateWrapper::~IOExclaveProxyStateWrapper",
+    "IOExclaveProxyStateWrapper::~IOExclaveProxyStateWrapper",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOExclaveProxyStateWrapper::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSObject::free"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "OSOrderedSet::MetaClass",
+  "vtable_entries": [
+    "OSOrderedSet::MetaClass::~MetaClass",
+    "OSOrderedSet::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "OSOrderedSet::MetaClass::alloc"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "IODTNVRAMFormatHandler",
+  "vtable_entries": [
+    "IODTNVRAMFormatHandler::~IODTNVRAMFormatHandler",
+    "IODTNVRAMFormatHandler::~IODTNVRAMFormatHandler",
+    "IODTNVRAMFormatHandler::getNVRAMProperties",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual"
+  ]
+}

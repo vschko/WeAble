@@ -1,0 +1,22 @@
+{
+  "name": "OSValueObject<TrivialAggregateTestType>",
+  "vtable_entries": [
+    "OSValueObject<TrivialAggregateTestType>::~OSValueObject",
+    "OSValueObject<TrivialAggregateTestType>::~OSValueObject",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSValueObject<TrivialAggregateTestType>::serialize",
+    "OSValueObject<TrivialAggregateTestType>::getMetaClass",
+    "OSValueObject<TrivialAggregateTestType>::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSValueObject<TrivialAggregateTestType>::init",
+    "OSValueObject<TrivialAggregateTestType>::free",
+    "OSValueObject<TrivialAggregateTestType>::isEqualTo",
+    "OSValueObject<TrivialAggregateTestType>::isEqualTo"
+  ]
+}

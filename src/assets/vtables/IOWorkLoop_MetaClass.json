@@ -1,0 +1,19 @@
+{
+  "name": "IOWorkLoop::MetaClass",
+  "vtable_entries": [
+    "IOWorkLoop::MetaClass::~MetaClass",
+    "IOWorkLoop::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOWorkLoop::MetaClass::alloc"
+  ]
+}

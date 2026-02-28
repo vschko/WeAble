@@ -1,0 +1,19 @@
+{
+  "name": "IOCommandPool::MetaClass",
+  "vtable_entries": [
+    "IOCommandPool::MetaClass::~MetaClass",
+    "IOCommandPool::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOCommandPool::MetaClass::alloc"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "IOSKRegionMapper::MetaClass",
+  "vtable_entries": [
+    "IOSKRegionMapper::MetaClass::~MetaClass",
+    "IOSKRegionMapper::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOSKRegionMapper::MetaClass::alloc"
+  ]
+}

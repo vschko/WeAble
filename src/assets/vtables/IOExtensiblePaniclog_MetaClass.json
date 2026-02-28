@@ -1,0 +1,19 @@
+{
+  "name": "IOExtensiblePaniclog::MetaClass",
+  "vtable_entries": [
+    "IOExtensiblePaniclog::MetaClass::~MetaClass",
+    "IOExtensiblePaniclog::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "IOExtensiblePaniclog::MetaClass::Dispatch",
+    "IOExtensiblePaniclog::MetaClass::alloc"
+  ]
+}

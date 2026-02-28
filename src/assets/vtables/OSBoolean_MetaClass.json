@@ -1,0 +1,19 @@
+{
+  "name": "OSBoolean::MetaClass",
+  "vtable_entries": [
+    "OSBoolean::MetaClass::~MetaClass",
+    "OSBoolean::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "OSBoolean::MetaClass::alloc"
+  ]
+}

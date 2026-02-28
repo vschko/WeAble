@@ -1,0 +1,20 @@
+{
+  "name": "IONVRAMCHRPHandler",
+  "vtable_entries": [
+    "IONVRAMCHRPHandler::~IONVRAMCHRPHandler",
+    "IONVRAMCHRPHandler::~IONVRAMCHRPHandler",
+    "IODTNVRAMFormatHandler::getNVRAMProperties",
+    "IONVRAMCHRPHandler::unserializeVariables",
+    "IONVRAMCHRPHandler::setVariable",
+    "IONVRAMCHRPHandler::setController",
+    "IONVRAMCHRPHandler::sync",
+    "IONVRAMCHRPHandler::flush",
+    "IONVRAMCHRPHandler::reload",
+    "IONVRAMCHRPHandler::getGeneration",
+    "IONVRAMCHRPHandler::getVersion",
+    "IONVRAMCHRPHandler::getSystemUsed",
+    "IONVRAMCHRPHandler::getCommonUsed",
+    "IONVRAMCHRPHandler::getSystemPartitionActive",
+    "IONVRAMCHRPHandler::getVarDict"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "OSNumber",
+  "vtable_entries": [
+    "OSNumber::~OSNumber",
+    "OSNumber::~OSNumber",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSNumber::serialize",
+    "OSNumber::getMetaClass",
+    "OSNumber::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSNumber::free",
+    "OSNumber::init",
+    "OSNumber::init",
+    "OSNumber::numberOfBits",
+    "OSNumber::numberOfBytes",
+    "OSNumber::unsigned8BitValue",
+    "OSNumber::unsigned16BitValue",
+    "OSNumber::unsigned32BitValue",
+    "OSNumber::unsigned64BitValue",
+    "OSNumber::addValue",
+    "OSNumber::setValue",
+    "OSNumber::isEqualTo"
+  ]
+}

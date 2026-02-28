@@ -1,0 +1,19 @@
+{
+  "name": "IORootParent::MetaClass",
+  "vtable_entries": [
+    "IORootParent::MetaClass::~MetaClass",
+    "IORootParent::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IORootParent::MetaClass::alloc"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "OSCISubclass",
+  "vtable_entries": [
+    "OSCISubclass::~OSCISubclass",
+    "OSCISubclass::~OSCISubclass",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "OSCISubclass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSCollectionIterator::free",
+    "OSCollectionIterator::reset",
+    "OSCollectionIterator::isValid",
+    "OSCollectionIterator::getNextObject",
+    "OSCollectionIterator::initWithCollection"
+  ]
+}

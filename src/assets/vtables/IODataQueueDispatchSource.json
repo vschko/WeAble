@@ -1,0 +1,20 @@
+{
+  "name": "IODataQueueDispatchSource",
+  "vtable_entries": [
+    "IODataQueueDispatchSource::~IODataQueueDispatchSource",
+    "IODataQueueDispatchSource::~IODataQueueDispatchSource",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IODataQueueDispatchSource::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "IODataQueueDispatchSource::Dispatch",
+    "IODataQueueDispatchSource::init",
+    "IODataQueueDispatchSource::free"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "OSValueObject<int32_t>::MetaClass",
+  "vtable_entries": [
+    "OSValueObject<int32_t>::MetaClass::~MetaClass",
+    "OSValueObject<int32_t>::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "OSValueObject<int32_t>::MetaClass::alloc"
+  ]
+}

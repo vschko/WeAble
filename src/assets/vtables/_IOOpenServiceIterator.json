@@ -1,0 +1,23 @@
+{
+  "name": "_IOOpenServiceIterator",
+  "vtable_entries": [
+    "_IOOpenServiceIterator::~_IOOpenServiceIterator",
+    "_IOOpenServiceIterator::~_IOOpenServiceIterator",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "_IOOpenServiceIterator::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "_IOOpenServiceIterator::free",
+    "_IOOpenServiceIterator::reset",
+    "_IOOpenServiceIterator::isValid",
+    "_IOOpenServiceIterator::getNextObject"
+  ]
+}

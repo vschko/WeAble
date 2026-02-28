@@ -1,0 +1,27 @@
+{
+  "name": "IOServiceUserNotification",
+  "vtable_entries": [
+    "IOServiceUserNotification::~IOServiceUserNotification",
+    "IOServiceUserNotification::~IOServiceUserNotification",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOServiceUserNotification::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "IOUserIterator::init",
+    "IOServiceUserNotification::free",
+    "IOUserNotification::reset",
+    "IOUserNotification::isValid",
+    "IOServiceUserNotification::getNextObject",
+    "IOServiceUserNotification::copyNextObject",
+    "IOUserNotification::setNotification",
+    "IOServiceUserNotification::init",
+    "IOServiceUserNotification::handler"
+  ]
+}

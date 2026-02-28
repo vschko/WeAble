@@ -1,0 +1,23 @@
+{
+  "name": "IONotifier",
+  "vtable_entries": [
+    "IONotifier::~IONotifier",
+    "IONotifier::~IONotifier",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IONotifier::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSObject::free",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual"
+  ]
+}

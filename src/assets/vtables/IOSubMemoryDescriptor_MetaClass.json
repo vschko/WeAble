@@ -1,0 +1,19 @@
+{
+  "name": "IOSubMemoryDescriptor::MetaClass",
+  "vtable_entries": [
+    "IOSubMemoryDescriptor::MetaClass::~MetaClass",
+    "IOSubMemoryDescriptor::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOSubMemoryDescriptor::MetaClass::alloc"
+  ]
+}

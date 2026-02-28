@@ -18,7 +18,7 @@ def find_class_vtable_from_alloc(bv: BinaryView, alloc_addr: int):
         for instr in block:
             if instr.operation != MediumLevelILOperation.MLIL_CALL:
                 continue
-            callee = instr.dest
+            callee = instr.dest # type: ignore
             if callee.operation != MediumLevelILOperation.MLIL_CONST_PTR:
                 continue
             ctor_func = bv.get_function_at(callee.constant)

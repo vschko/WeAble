@@ -1,0 +1,20 @@
+{
+  "name": "IOWorkGroup",
+  "vtable_entries": [
+    "IOWorkGroup::~IOWorkGroup",
+    "IOWorkGroup::~IOWorkGroup",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOWorkGroup::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "IOWorkGroup::Dispatch",
+    "IOWorkGroup::init",
+    "IOWorkGroup::free"
+  ]
+}

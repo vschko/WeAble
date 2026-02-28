@@ -1,0 +1,19 @@
+{
+  "name": "TestIOUserClient2022Entitlements::MetaClass",
+  "vtable_entries": [
+    "TestIOUserClient2022Entitlements::MetaClass::~MetaClass",
+    "TestIOUserClient2022Entitlements::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "TestIOUserClient2022Entitlements::MetaClass::alloc"
+  ]
+}

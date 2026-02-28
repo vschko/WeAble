@@ -1,0 +1,19 @@
+{
+  "name": "IODataQueueDispatchSource::MetaClass",
+  "vtable_entries": [
+    "IODataQueueDispatchSource::MetaClass::~MetaClass",
+    "IODataQueueDispatchSource::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "IODataQueueDispatchSource::MetaClass::Dispatch",
+    "IODataQueueDispatchSource::MetaClass::alloc"
+  ]
+}

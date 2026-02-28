@@ -1,0 +1,19 @@
+{
+  "name": "IOPMGR::MetaClass",
+  "vtable_entries": [
+    "IOPMGR::MetaClass::~MetaClass",
+    "IOPMGR::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOPMGR::MetaClass::alloc"
+  ]
+}

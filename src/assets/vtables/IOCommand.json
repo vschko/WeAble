@@ -1,0 +1,20 @@
+{
+  "name": "IOCommand",
+  "vtable_entries": [
+    "IOCommand::~IOCommand",
+    "IOCommand::~IOCommand",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOCommand::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "IOCommand::init",
+    "OSObject::free"
+  ]
+}

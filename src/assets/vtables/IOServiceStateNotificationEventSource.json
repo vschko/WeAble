@@ -1,0 +1,32 @@
+{
+  "name": "IOServiceStateNotificationEventSource",
+  "vtable_entries": [
+    "IOServiceStateNotificationEventSource::~IOServiceStateNotificationEventSource",
+    "IOServiceStateNotificationEventSource::~IOServiceStateNotificationEventSource",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOServiceStateNotificationEventSource::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOServiceStateNotificationEventSource::free",
+    "IOEventSource::init",
+    "IOServiceStateNotificationEventSource::checkForWork",
+    "IOServiceStateNotificationEventSource::setWorkLoop",
+    "IOEventSource::setNext",
+    "IOEventSource::getNext",
+    "IOEventSource::setAction",
+    "IOEventSource::getAction",
+    "IOServiceStateNotificationEventSource::enable",
+    "IOServiceStateNotificationEventSource::disable",
+    "IOEventSource::isEnabled",
+    "IOEventSource::getWorkLoop",
+    "IOEventSource::onThread"
+  ]
+}

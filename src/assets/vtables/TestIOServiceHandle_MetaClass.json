@@ -1,0 +1,19 @@
+{
+  "name": "TestIOServiceHandle::MetaClass",
+  "vtable_entries": [
+    "TestIOServiceHandle::MetaClass::~MetaClass",
+    "TestIOServiceHandle::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "TestIOServiceHandle::MetaClass::alloc"
+  ]
+}

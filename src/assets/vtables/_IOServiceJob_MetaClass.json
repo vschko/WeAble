@@ -1,0 +1,19 @@
+{
+  "name": "_IOServiceJob::MetaClass",
+  "vtable_entries": [
+    "_IOServiceJob::MetaClass::~MetaClass",
+    "_IOServiceJob::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "_IOServiceJob::MetaClass::alloc"
+  ]
+}

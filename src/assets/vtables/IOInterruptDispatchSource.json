@@ -1,0 +1,20 @@
+{
+  "name": "IOInterruptDispatchSource",
+  "vtable_entries": [
+    "IOInterruptDispatchSource::~IOInterruptDispatchSource",
+    "IOInterruptDispatchSource::~IOInterruptDispatchSource",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOInterruptDispatchSource::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "IOInterruptDispatchSource::Dispatch",
+    "IOInterruptDispatchSource::init",
+    "IOInterruptDispatchSource::free"
+  ]
+}

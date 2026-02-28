@@ -1,0 +1,19 @@
+{
+  "name": "IOGeneralMemoryDescriptor::MetaClass",
+  "vtable_entries": [
+    "IOGeneralMemoryDescriptor::MetaClass::~MetaClass",
+    "IOGeneralMemoryDescriptor::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOGeneralMemoryDescriptor::MetaClass::alloc"
+  ]
+}

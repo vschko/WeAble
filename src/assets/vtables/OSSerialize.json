@@ -1,0 +1,33 @@
+{
+  "name": "OSSerialize",
+  "vtable_entries": [
+    "OSSerialize::~OSSerialize",
+    "OSSerialize::~OSSerialize",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "OSSerialize::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSSerialize::free",
+    "OSSerialize::text",
+    "OSSerialize::clearText",
+    "OSSerialize::previouslySerialized",
+    "OSSerialize::addXMLStartTag",
+    "OSSerialize::addXMLEndTag",
+    "OSSerialize::addChar",
+    "OSSerialize::addString",
+    "OSSerialize::initWithCapacity",
+    "OSSerialize::getLength",
+    "OSSerialize::getCapacity",
+    "OSSerialize::getCapacityIncrement",
+    "OSSerialize::setCapacityIncrement",
+    "OSSerialize::ensureCapacity"
+  ]
+}

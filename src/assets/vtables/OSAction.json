@@ -1,0 +1,20 @@
+{
+  "name": "OSAction",
+  "vtable_entries": [
+    "OSAction::~OSAction",
+    "OSAction::~OSAction",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "OSAction::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSAction::Dispatch",
+    "OSObject::init",
+    "OSAction::free"
+  ]
+}

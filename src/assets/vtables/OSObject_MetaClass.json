@@ -1,0 +1,19 @@
+{
+  "name": "OSObject::MetaClass",
+  "vtable_entries": [
+    "OSObject::MetaClass::~MetaClass",
+    "OSObject::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSObject::MetaClass::Dispatch",
+    "OSObject::MetaClass::alloc"
+  ]
+}

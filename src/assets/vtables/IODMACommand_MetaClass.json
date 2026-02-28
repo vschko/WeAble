@@ -1,0 +1,19 @@
+{
+  "name": "IODMACommand::MetaClass",
+  "vtable_entries": [
+    "IODMACommand::MetaClass::~MetaClass",
+    "IODMACommand::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "IODMACommand::MetaClass::Dispatch",
+    "IODMACommand::MetaClass::alloc"
+  ]
+}

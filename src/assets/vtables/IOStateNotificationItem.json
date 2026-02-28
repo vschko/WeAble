@@ -1,0 +1,20 @@
+{
+  "name": "IOStateNotificationItem",
+  "vtable_entries": [
+    "IOStateNotificationItem::~IOStateNotificationItem",
+    "IOStateNotificationItem::~IOStateNotificationItem",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOStateNotificationItem::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "IOStateNotificationItem::init",
+    "OSObject::free"
+  ]
+}

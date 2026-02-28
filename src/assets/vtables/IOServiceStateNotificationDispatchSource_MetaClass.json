@@ -1,0 +1,19 @@
+{
+  "name": "IOServiceStateNotificationDispatchSource::MetaClass",
+  "vtable_entries": [
+    "IOServiceStateNotificationDispatchSource::MetaClass::~MetaClass",
+    "IOServiceStateNotificationDispatchSource::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "IOServiceStateNotificationDispatchSource::MetaClass::Dispatch",
+    "IOServiceStateNotificationDispatchSource::MetaClass::alloc"
+  ]
+}

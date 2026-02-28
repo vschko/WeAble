@@ -1,0 +1,19 @@
+{
+  "name": "IOPlatformDevice::MetaClass",
+  "vtable_entries": [
+    "IOPlatformDevice::MetaClass::~MetaClass",
+    "IOPlatformDevice::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOPlatformDevice::MetaClass::alloc"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "IOStateNotificationListener",
+  "vtable_entries": [
+    "IOStateNotificationListener::~IOStateNotificationListener",
+    "IOStateNotificationListener::~IOStateNotificationListener",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOStateNotificationListener::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "IOStateNotificationListener::init",
+    "IOStateNotificationListener::free"
+  ]
+}

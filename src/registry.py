@@ -61,7 +61,7 @@ class ClassRegistry:
     def get_by_name(self, name: str) -> IClass | None:
         return self._by_name.get(name)
 
-    def get_descendants(self, classname: str) -> list[IClass]:
+    def get_descendants(self, classname: str, depth: int = -1) -> list[IClass]:
         root = self._by_name.get(classname)
         if root is None:
             return []
@@ -69,12 +69,19 @@ class ClassRegistry:
         children_map = self._build_children_map()
         result: list[IClass] = []
 
-        def _collect(node: IClass):
+        def _collect(node: IClass, current_level: int):
+            # Если depth не равен -1
+            # и мы достигли нужной глубины, то останавливаемся.
+            if depth != -1 and current_level >= depth:
+                return
+
             for child in children_map.get(node.this_addr, []):
                 result.append(child)
-                _collect(child)
+                # Рекурсивно идем глубже, увеличивая уровень на 1
+                _collect(child, current_level + 1)
 
-        _collect(root)
+        # Запускаем сбор с текущего уровня 0
+        _collect(root, 0)
         return result
 
     def dump(self, path: str = "/tmp/registry.json"):
@@ -83,7 +90,7 @@ class ClassRegistry:
             parents = []
             if cls.parent:
                 curr = cls.parent
-                while curr.name != "OSNullClass":
+                while curr.name != "OSNullClass": # type: ignore
                     parents.append(curr.name)
                     curr = curr.parent
 

@@ -1,0 +1,20 @@
+{
+  "name": "_IOServiceJob",
+  "vtable_entries": [
+    "_IOServiceJob::~_IOServiceJob",
+    "_IOServiceJob::~_IOServiceJob",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "_IOServiceJob::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSObject::free"
+  ]
+}

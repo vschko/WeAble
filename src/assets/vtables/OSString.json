@@ -1,0 +1,30 @@
+{
+  "name": "OSString",
+  "vtable_entries": [
+    "OSString::~OSString",
+    "OSString::~OSString",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSString::serialize",
+    "OSString::getMetaClass",
+    "OSString::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSString::free",
+    "OSString::initWithString",
+    "OSString::initWithCString",
+    "OSString::initWithCStringNoCopy",
+    "OSString::getLength",
+    "OSString::getChar",
+    "OSString::setChar",
+    "OSString::getCStringNoCopy",
+    "OSString::isEqualTo",
+    "OSString::isEqualTo",
+    "OSString::isEqualTo"
+  ]
+}

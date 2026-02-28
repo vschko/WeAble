@@ -1,0 +1,19 @@
+{
+  "name": "_IOUserServerCheckInCancellationHandler::MetaClass",
+  "vtable_entries": [
+    "_IOUserServerCheckInCancellationHandler::MetaClass::~MetaClass",
+    "_IOUserServerCheckInCancellationHandler::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "_IOUserServerCheckInCancellationHandler::MetaClass::alloc"
+  ]
+}

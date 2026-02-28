@@ -1,0 +1,19 @@
+{
+  "name": "IOSKMapper::MetaClass",
+  "vtable_entries": [
+    "IOSKMapper::MetaClass::~MetaClass",
+    "IOSKMapper::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOSKMapper::MetaClass::alloc"
+  ]
+}

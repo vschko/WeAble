@@ -1,0 +1,28 @@
+{
+  "name": "IOPerfControlClient",
+  "vtable_entries": [
+    "IOPerfControlClient::~IOPerfControlClient",
+    "IOPerfControlClient::~IOPerfControlClient",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOPerfControlClient::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOPerfControlClient::free",
+    "IOPerfControlClient::init",
+    "IOPerfControlClient::registerDevice",
+    "IOPerfControlClient::unregisterDevice",
+    "IOPerfControlClient::workSubmit",
+    "IOPerfControlClient::workSubmitAndBegin",
+    "IOPerfControlClient::workBegin",
+    "IOPerfControlClient::workEnd",
+    "IOPerfControlClient::registerPerformanceController"
+  ]
+}

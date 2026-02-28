@@ -1,0 +1,24 @@
+{
+  "name": "IOBigMemoryCursor",
+  "vtable_entries": [
+    "IOBigMemoryCursor::~IOBigMemoryCursor",
+    "IOBigMemoryCursor::~IOBigMemoryCursor",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOBigMemoryCursor::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSObject::free",
+    "IOMemoryCursor::initWithSpecification",
+    "IOMemoryCursor::genPhysicalSegments",
+    "IOBigMemoryCursor::initWithSpecification",
+    "IOBigMemoryCursor::getPhysicalSegments"
+  ]
+}

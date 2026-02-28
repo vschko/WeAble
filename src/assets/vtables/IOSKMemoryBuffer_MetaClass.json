@@ -1,0 +1,19 @@
+{
+  "name": "IOSKMemoryBuffer::MetaClass",
+  "vtable_entries": [
+    "IOSKMemoryBuffer::MetaClass::~MetaClass",
+    "IOSKMemoryBuffer::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOSKMemoryBuffer::MetaClass::alloc"
+  ]
+}

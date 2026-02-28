@@ -12,6 +12,24 @@ def unsigned(val: int, bits: int = 64) -> int:
     return val & ((1 << bits) - 1)
 
 
+# Function restoration helpers
+def find_next_call_from(bv: BinaryView, func, s_addr: int):
+    llil = func.llil
+    if not llil:
+        return None
+
+    start_recording = False
+    for block in llil:
+        for instr in block:
+            if instr.address == s_addr:
+                start_recording = True
+
+            if start_recording:
+                if instr.operation == LowLevelILOperation.LLIL_CALL:
+                    return unsigned(instr.dest.constant)
+    return None
+
+
 def get_u_reg_value_at(func, addr: int, reg_name: str) -> int:
     val = func.get_reg_value_at(addr, reg_name)
     if val.type in (

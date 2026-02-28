@@ -1,0 +1,20 @@
+{
+  "name": "IOPMinformeeList",
+  "vtable_entries": [
+    "IOPMinformeeList::~IOPMinformeeList",
+    "IOPMinformeeList::~IOPMinformeeList",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOPMinformeeList::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOPMinformeeList::free"
+  ]
+}

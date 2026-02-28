@@ -1,0 +1,22 @@
+{
+  "name": "OSValueObject<int32_t>",
+  "vtable_entries": [
+    "OSValueObject<int32_t>::~OSValueObject",
+    "OSValueObject<int32_t>::~OSValueObject",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSValueObject<int32_t>::serialize",
+    "OSValueObject<int32_t>::getMetaClass",
+    "OSValueObject<int32_t>::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSValueObject<int32_t>::init",
+    "OSValueObject<int32_t>::free",
+    "OSValueObject<int32_t>::isEqualTo",
+    "OSValueObject<int32_t>::isEqualTo"
+  ]
+}

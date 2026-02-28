@@ -1,0 +1,19 @@
+{
+  "name": "IOPMPowerStateQueue::MetaClass",
+  "vtable_entries": [
+    "IOPMPowerStateQueue::MetaClass::~MetaClass",
+    "IOPMPowerStateQueue::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOPMPowerStateQueue::MetaClass::alloc"
+  ]
+}

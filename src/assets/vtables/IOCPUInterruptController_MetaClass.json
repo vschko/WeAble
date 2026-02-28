@@ -1,0 +1,19 @@
+{
+  "name": "IOCPUInterruptController::MetaClass",
+  "vtable_entries": [
+    "IOCPUInterruptController::MetaClass::~MetaClass",
+    "IOCPUInterruptController::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOCPUInterruptController::MetaClass::alloc"
+  ]
+}

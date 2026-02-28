@@ -1,0 +1,19 @@
+{
+  "name": "IOExclaveProxyStateWrapper::MetaClass",
+  "vtable_entries": [
+    "IOExclaveProxyStateWrapper::MetaClass::~MetaClass",
+    "IOExclaveProxyStateWrapper::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOExclaveProxyStateWrapper::MetaClass::alloc"
+  ]
+}

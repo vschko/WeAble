@@ -1,0 +1,20 @@
+{
+  "name": "OSAction_IOUserClient_KernelCompletion",
+  "vtable_entries": [
+    "OSAction_IOUserClient_KernelCompletion::~OSAction_IOUserClient_KernelCompletion",
+    "OSAction_IOUserClient_KernelCompletion::~OSAction_IOUserClient_KernelCompletion",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "OSAction_IOUserClient_KernelCompletion::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSAction_IOUserClient_KernelCompletion::Dispatch",
+    "OSObject::init",
+    "OSAction::free"
+  ]
+}

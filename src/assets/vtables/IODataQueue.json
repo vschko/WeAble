@@ -1,0 +1,26 @@
+{
+  "name": "IODataQueue",
+  "vtable_entries": [
+    "IODataQueue::~IODataQueue",
+    "IODataQueue::~IODataQueue",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IODataQueue::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IODataQueue::free",
+    "IODataQueue::sendDataAvailableNotification",
+    "IODataQueue::initWithCapacity",
+    "IODataQueue::initWithEntries",
+    "IODataQueue::enqueue",
+    "IODataQueue::setNotificationPort",
+    "IODataQueue::getMemoryDescriptor"
+  ]
+}

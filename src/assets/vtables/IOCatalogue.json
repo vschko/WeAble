@@ -1,0 +1,20 @@
+{
+  "name": "IOCatalogue",
+  "vtable_entries": [
+    "IOCatalogue::~IOCatalogue",
+    "IOCatalogue::~IOCatalogue",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "IOCatalogue::serialize",
+    "IOCatalogue::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOCatalogue::free"
+  ]
+}

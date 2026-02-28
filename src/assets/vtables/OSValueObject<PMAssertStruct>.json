@@ -1,0 +1,22 @@
+{
+  "name": "OSValueObject<PMAssertStruct>",
+  "vtable_entries": [
+    "OSValueObject<PMAssertStruct>::~OSValueObject",
+    "OSValueObject<PMAssertStruct>::~OSValueObject",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSValueObject<PMAssertStruct>::serialize",
+    "OSValueObject<PMAssertStruct>::getMetaClass",
+    "OSValueObject<PMAssertStruct>::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSValueObject<PMAssertStruct>::init",
+    "OSValueObject<PMAssertStruct>::free",
+    "OSValueObject<PMAssertStruct>::isEqualTo",
+    "OSValueObject<PMAssertStruct>::isEqualTo"
+  ]
+}

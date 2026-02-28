@@ -1,0 +1,19 @@
+{
+  "name": "OSAction_IOUserClient_KernelCompletion::MetaClass",
+  "vtable_entries": [
+    "OSAction_IOUserClient_KernelCompletion::MetaClass::~MetaClass",
+    "OSAction_IOUserClient_KernelCompletion::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSAction_IOUserClient_KernelCompletion::MetaClass::Dispatch",
+    "OSAction_IOUserClient_KernelCompletion::MetaClass::alloc"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "IOUserIterator",
+  "vtable_entries": [
+    "IOUserIterator::~IOUserIterator",
+    "IOUserIterator::~IOUserIterator",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOUserIterator::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "IOUserIterator::init",
+    "IOUserIterator::free",
+    "IOUserIterator::reset",
+    "IOUserIterator::isValid",
+    "IOUserIterator::getNextObject",
+    "IOUserIterator::copyNextObject"
+  ]
+}

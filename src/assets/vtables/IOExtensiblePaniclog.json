@@ -1,0 +1,20 @@
+{
+  "name": "IOExtensiblePaniclog",
+  "vtable_entries": [
+    "IOExtensiblePaniclog::~IOExtensiblePaniclog",
+    "IOExtensiblePaniclog::~IOExtensiblePaniclog",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOExtensiblePaniclog::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "IOExtensiblePaniclog::Dispatch",
+    "IOExtensiblePaniclog::init",
+    "IOExtensiblePaniclog::free"
+  ]
+}

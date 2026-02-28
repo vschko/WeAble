@@ -4,7 +4,7 @@ from weable.src.vtable import find_class_vtable_from_alloc
 
 
 class IClass:
-    def __init__(self, this_addr: int, p_addr: int, name: str, sz: int, bv: BinaryView = None):
+    def __init__(self, this_addr: int, p_addr: int, name: str, sz: int, bv: BinaryView = None): # type: ignore
         # address to instance of metaclass
         self.this_addr = this_addr
         
@@ -21,6 +21,8 @@ class IClass:
         if bv:
             self._try_set_origin_kext(bv, self.this_addr)
 
+
+
     # ── setters ───────────────────────────────────────────────────────
 
     def set_vtable(self, vtable_addr: int):
@@ -29,7 +31,7 @@ class IClass:
     def set_parent(self, parent: "IClass"):
         self.parent = parent
 
-    def set_src(self, src: int, bv: BinaryView = None):
+    def set_src(self, src: int, bv: BinaryView = None): # type: ignore
         self.src = src
         if bv and self.src > 0:
             self._try_set_origin_kext(bv, self.src)

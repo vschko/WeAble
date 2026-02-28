@@ -1,0 +1,20 @@
+{
+  "name": "IOPMRequest",
+  "vtable_entries": [
+    "IOPMRequest::~IOPMRequest",
+    "IOPMRequest::~IOPMRequest",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOPMRequest::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "IOCommand::init",
+    "OSObject::free"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "IOSimpleReporter::MetaClass",
+  "vtable_entries": [
+    "IOSimpleReporter::MetaClass::~MetaClass",
+    "IOSimpleReporter::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOSimpleReporter::MetaClass::alloc"
+  ]
+}

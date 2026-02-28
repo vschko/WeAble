@@ -1,0 +1,27 @@
+{
+  "name": "IOUnifiedAddressTranslator",
+  "vtable_entries": [
+    "IOUnifiedAddressTranslator::~IOUnifiedAddressTranslator",
+    "IOUnifiedAddressTranslator::~IOUnifiedAddressTranslator",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOUnifiedAddressTranslator::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOUnifiedAddressTranslator::free",
+    "IOUnifiedAddressTranslator::taskDied",
+    "IOUnifiedAddressTranslator::getTotalPageTableMemory",
+    "IOUnifiedAddressTranslator::isPageFaultExpected",
+    "IOUnifiedAddressTranslator::getPageTablePhysicalBaseAddress",
+    "IOUnifiedAddressTranslator::getPageTableEntry",
+    "IOUnifiedAddressTranslator::mapToPhysicalAddress",
+    "IOUnifiedAddressTranslator::init"
+  ]
+}

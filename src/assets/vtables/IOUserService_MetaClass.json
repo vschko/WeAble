@@ -1,0 +1,19 @@
+{
+  "name": "IOUserService::MetaClass",
+  "vtable_entries": [
+    "IOUserService::MetaClass::~MetaClass",
+    "IOUserService::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOUserService::MetaClass::alloc"
+  ]
+}

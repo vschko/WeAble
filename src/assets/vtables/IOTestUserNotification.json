@@ -1,0 +1,25 @@
+{
+  "name": "IOTestUserNotification",
+  "vtable_entries": [
+    "IOTestUserNotification::~IOTestUserNotification",
+    "IOTestUserNotification::~IOTestUserNotification",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOTestUserNotification::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "IOUserIterator::init",
+    "IOUserNotification::free",
+    "IOUserNotification::reset",
+    "IOUserNotification::isValid",
+    "IOUserIterator::getNextObject",
+    "IOUserIterator::copyNextObject",
+    "IOUserNotification::setNotification"
+  ]
+}

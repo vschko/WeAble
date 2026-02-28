@@ -1,0 +1,20 @@
+{
+  "name": "IOKitDiagnostics",
+  "vtable_entries": [
+    "IOKitDiagnostics::~IOKitDiagnostics",
+    "IOKitDiagnostics::~IOKitDiagnostics",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "IOKitDiagnostics::serialize",
+    "IOKitDiagnostics::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSObject::free"
+  ]
+}

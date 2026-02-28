@@ -1,0 +1,30 @@
+{
+  "name": "IORangeAllocator",
+  "vtable_entries": [
+    "IORangeAllocator::~IORangeAllocator",
+    "IORangeAllocator::~IORangeAllocator",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "IORangeAllocator::serialize",
+    "IORangeAllocator::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IORangeAllocator::free",
+    "IORangeAllocator::allocElement",
+    "IORangeAllocator::deallocElement",
+    "IORangeAllocator::init",
+    "IORangeAllocator::getFragmentCount",
+    "IORangeAllocator::getFragmentCapacity",
+    "IORangeAllocator::setFragmentCapacityIncrement",
+    "IORangeAllocator::getFreeCount",
+    "IORangeAllocator::allocate",
+    "IORangeAllocator::allocateRange",
+    "IORangeAllocator::deallocate"
+  ]
+}

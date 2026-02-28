@@ -1,0 +1,20 @@
+{
+  "name": "IOUserServerCheckInToken",
+  "vtable_entries": [
+    "IOUserServerCheckInToken::~IOUserServerCheckInToken",
+    "IOUserServerCheckInToken::~IOUserServerCheckInToken",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOUserServerCheckInToken::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOUserServerCheckInToken::free"
+  ]
+}

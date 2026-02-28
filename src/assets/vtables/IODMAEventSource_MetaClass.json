@@ -1,0 +1,19 @@
+{
+  "name": "IODMAEventSource::MetaClass",
+  "vtable_entries": [
+    "IODMAEventSource::MetaClass::~MetaClass",
+    "IODMAEventSource::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IODMAEventSource::MetaClass::alloc"
+  ]
+}

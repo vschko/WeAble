@@ -1,0 +1,20 @@
+{
+  "name": "OSUserMetaClass",
+  "vtable_entries": [
+    "OSUserMetaClass::~OSUserMetaClass",
+    "OSUserMetaClass::~OSUserMetaClass",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "OSUserMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSUserMetaClass::Dispatch",
+    "OSObject::init",
+    "OSUserMetaClass::free"
+  ]
+}

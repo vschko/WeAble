@@ -1,0 +1,20 @@
+{
+  "name": "IOPerfControlWorkContext",
+  "vtable_entries": [
+    "IOPerfControlWorkContext::~IOPerfControlWorkContext",
+    "IOPerfControlWorkContext::~IOPerfControlWorkContext",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOPerfControlWorkContext::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "IOPerfControlWorkContext::init",
+    "IOPerfControlWorkContext::free"
+  ]
+}

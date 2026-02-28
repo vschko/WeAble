@@ -1,0 +1,29 @@
+{
+  "name": "IOMemoryMap",
+  "vtable_entries": [
+    "IOMemoryMap::~IOMemoryMap",
+    "IOMemoryMap::~IOMemoryMap",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOMemoryMap::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "IOMemoryMap::taggedRelease",
+    "OSObject::taggedRelease",
+    "IOMemoryMap::Dispatch",
+    "OSObject::init",
+    "IOMemoryMap::free",
+    "IOMemoryMap::getVirtualAddress",
+    "IOMemoryMap::getPhysicalSegment",
+    "IOMemoryMap::getLength",
+    "IOMemoryMap::getAddressTask",
+    "IOMemoryMap::getMemoryDescriptor",
+    "IOMemoryMap::getMapOptions",
+    "IOMemoryMap::unmap",
+    "IOMemoryMap::taskDied",
+    "IOMemoryMap::redirect"
+  ]
+}

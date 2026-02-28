@@ -1,0 +1,20 @@
+{
+  "name": "OSSerializer",
+  "vtable_entries": [
+    "OSSerializer::~OSSerializer",
+    "OSSerializer::~OSSerializer",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSSerializer::serialize",
+    "OSSerializer::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSSerializer::free"
+  ]
+}

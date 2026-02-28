@@ -1,0 +1,20 @@
+{
+  "name": "IONVRAMV3Handler",
+  "vtable_entries": [
+    "IONVRAMV3Handler::~IONVRAMV3Handler",
+    "IONVRAMV3Handler::~IONVRAMV3Handler",
+    "IONVRAMV3Handler::getNVRAMProperties",
+    "IONVRAMV3Handler::unserializeVariables",
+    "IONVRAMV3Handler::setVariable",
+    "IONVRAMV3Handler::setController",
+    "IONVRAMV3Handler::sync",
+    "IONVRAMV3Handler::flush",
+    "IONVRAMV3Handler::reload",
+    "IONVRAMV3Handler::getGeneration",
+    "IONVRAMV3Handler::getVersion",
+    "IONVRAMV3Handler::getSystemUsed",
+    "IONVRAMV3Handler::getCommonUsed",
+    "IONVRAMV3Handler::getSystemPartitionActive",
+    "IONVRAMV3Handler::getVarDict"
+  ]
+}

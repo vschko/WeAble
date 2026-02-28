@@ -1,0 +1,19 @@
+{
+  "name": "OSValueObject<PMAssertStruct>::MetaClass",
+  "vtable_entries": [
+    "OSValueObject<PMAssertStruct>::MetaClass::~MetaClass",
+    "OSValueObject<PMAssertStruct>::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "OSValueObject<PMAssertStruct>::MetaClass::alloc"
+  ]
+}

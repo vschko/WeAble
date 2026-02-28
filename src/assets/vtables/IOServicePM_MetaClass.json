@@ -1,0 +1,19 @@
+{
+  "name": "IOServicePM::MetaClass",
+  "vtable_entries": [
+    "IOServicePM::MetaClass::~MetaClass",
+    "IOServicePM::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOServicePM::MetaClass::alloc"
+  ]
+}

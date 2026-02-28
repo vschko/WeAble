@@ -1,0 +1,33 @@
+{
+  "name": "IOPMRequestQueue",
+  "vtable_entries": [
+    "IOPMRequestQueue::~IOPMRequestQueue",
+    "IOPMRequestQueue::~IOPMRequestQueue",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOPMRequestQueue::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOPMRequestQueue::free",
+    "IOEventSource::init",
+    "IOPMRequestQueue::checkForWork",
+    "IOEventSource::setWorkLoop",
+    "IOEventSource::setNext",
+    "IOEventSource::getNext",
+    "IOEventSource::setAction",
+    "IOEventSource::getAction",
+    "IOEventSource::enable",
+    "IOEventSource::disable",
+    "IOEventSource::isEnabled",
+    "IOEventSource::getWorkLoop",
+    "IOEventSource::onThread",
+    "IOPMRequestQueue::init"
+  ]
+}

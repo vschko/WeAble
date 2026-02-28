@@ -1,0 +1,20 @@
+{
+  "name": "IOServicePM",
+  "vtable_entries": [
+    "IOServicePM::~IOServicePM",
+    "IOServicePM::~IOServicePM",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "IOServicePM::serialize",
+    "IOServicePM::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSObject::free"
+  ]
+}

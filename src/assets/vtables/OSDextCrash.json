@@ -1,0 +1,21 @@
+{
+  "name": "OSDextCrash",
+  "vtable_entries": [
+    "OSDextCrash::~OSDextCrash",
+    "OSDextCrash::~OSDextCrash",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "OSDextCrash::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSObject::free",
+    "OSDextCrash::initWithTimestamp"
+  ]
+}

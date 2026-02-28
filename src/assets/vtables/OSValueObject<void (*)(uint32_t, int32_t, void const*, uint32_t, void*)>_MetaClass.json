@@ -1,0 +1,19 @@
+{
+  "name": "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::MetaClass",
+  "vtable_entries": [
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::MetaClass::~MetaClass",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::MetaClass::alloc"
+  ]
+}

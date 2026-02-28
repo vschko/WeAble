@@ -1,0 +1,18 @@
+{
+  "name": "OSMetaClassBase",
+  "vtable_entries": [
+    "OSMetaClassBase::~OSMetaClassBase",
+    "OSMetaClassBase::~OSMetaClassBase",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "OSMetaClassBase::isEqualTo",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "___cxa_pure_virtual",
+    "OSMetaClassBase::Dispatch"
+  ]
+}

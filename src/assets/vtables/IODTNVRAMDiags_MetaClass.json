@@ -1,0 +1,19 @@
+{
+  "name": "IODTNVRAMDiags::MetaClass",
+  "vtable_entries": [
+    "IODTNVRAMDiags::MetaClass::~MetaClass",
+    "IODTNVRAMDiags::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IODTNVRAMDiags::MetaClass::alloc"
+  ]
+}

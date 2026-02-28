@@ -1,0 +1,19 @@
+{
+  "name": "TestIOConnectMapMemoryPortLeak45265408::MetaClass",
+  "vtable_entries": [
+    "TestIOConnectMapMemoryPortLeak45265408::MetaClass::~MetaClass",
+    "TestIOConnectMapMemoryPortLeak45265408::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "TestIOConnectMapMemoryPortLeak45265408::MetaClass::alloc"
+  ]
+}

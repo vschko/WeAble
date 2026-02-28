@@ -1,0 +1,19 @@
+{
+  "name": "IONVRAMController::MetaClass",
+  "vtable_entries": [
+    "IONVRAMController::MetaClass::~MetaClass",
+    "IONVRAMController::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IONVRAMController::MetaClass::alloc"
+  ]
+}

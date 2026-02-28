@@ -1,0 +1,19 @@
+{
+  "name": "IOUserClient2022::MetaClass",
+  "vtable_entries": [
+    "IOUserClient2022::MetaClass::~MetaClass",
+    "IOUserClient2022::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOUserClient2022::MetaClass::alloc"
+  ]
+}

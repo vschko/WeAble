@@ -1,0 +1,19 @@
+{
+  "name": "IOBufferMemoryDescriptor::MetaClass",
+  "vtable_entries": [
+    "IOBufferMemoryDescriptor::MetaClass::~MetaClass",
+    "IOBufferMemoryDescriptor::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "IOBufferMemoryDescriptor::MetaClass::Dispatch",
+    "IOBufferMemoryDescriptor::MetaClass::alloc"
+  ]
+}

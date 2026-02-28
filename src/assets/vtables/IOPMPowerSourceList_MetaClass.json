@@ -1,0 +1,19 @@
+{
+  "name": "IOPMPowerSourceList::MetaClass",
+  "vtable_entries": [
+    "IOPMPowerSourceList::MetaClass::~MetaClass",
+    "IOPMPowerSourceList::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOPMPowerSourceList::MetaClass::alloc"
+  ]
+}

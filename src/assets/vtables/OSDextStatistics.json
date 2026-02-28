@@ -1,0 +1,20 @@
+{
+  "name": "OSDextStatistics",
+  "vtable_entries": [
+    "OSDextStatistics::~OSDextStatistics",
+    "OSDextStatistics::~OSDextStatistics",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "OSDextStatistics::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSDextStatistics::init",
+    "OSDextStatistics::free"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "IOSKRegion",
+  "vtable_entries": [
+    "IOSKRegion::~IOSKRegion",
+    "IOSKRegion::~IOSKRegion",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOSKRegion::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOSKRegion::free"
+  ]
+}

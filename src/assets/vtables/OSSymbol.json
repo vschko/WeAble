@@ -1,0 +1,31 @@
+{
+  "name": "OSSymbol",
+  "vtable_entries": [
+    "OSSymbol::~OSSymbol",
+    "OSSymbol::~OSSymbol",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSString::serialize",
+    "OSSymbol::getMetaClass",
+    "OSSymbol::isEqualTo",
+    "OSSymbol::taggedRetain",
+    "OSSymbol::taggedRelease",
+    "OSSymbol::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "OSSymbol::free",
+    "OSSymbol::initWithString",
+    "OSSymbol::initWithCString",
+    "OSSymbol::initWithCStringNoCopy",
+    "OSString::getLength",
+    "OSString::getChar",
+    "OSString::setChar",
+    "OSString::getCStringNoCopy",
+    "OSString::isEqualTo",
+    "OSSymbol::isEqualTo",
+    "OSString::isEqualTo",
+    "OSSymbol::isEqualTo"
+  ]
+}

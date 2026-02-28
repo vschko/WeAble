@@ -1,0 +1,22 @@
+{
+  "name": "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>",
+  "vtable_entries": [
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::~OSValueObject",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::~OSValueObject",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::serialize",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::getMetaClass",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::init",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::free",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::isEqualTo",
+    "OSValueObject<void (*)(uint32_t, int32_t, void const*, uint32_t, void*)>::isEqualTo"
+  ]
+}

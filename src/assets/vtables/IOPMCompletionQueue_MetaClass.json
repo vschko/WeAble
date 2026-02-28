@@ -1,0 +1,19 @@
+{
+  "name": "IOPMCompletionQueue::MetaClass",
+  "vtable_entries": [
+    "IOPMCompletionQueue::MetaClass::~MetaClass",
+    "IOPMCompletionQueue::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOPMCompletionQueue::MetaClass::alloc"
+  ]
+}

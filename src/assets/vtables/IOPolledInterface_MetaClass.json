@@ -1,0 +1,19 @@
+{
+  "name": "IOPolledInterface::MetaClass",
+  "vtable_entries": [
+    "IOPolledInterface::MetaClass::~MetaClass",
+    "IOPolledInterface::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "IOPolledInterface::MetaClass::alloc"
+  ]
+}

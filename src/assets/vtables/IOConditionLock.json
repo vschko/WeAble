@@ -1,0 +1,29 @@
+{
+  "name": "IOConditionLock",
+  "vtable_entries": [
+    "IOConditionLock::~IOConditionLock",
+    "IOConditionLock::~IOConditionLock",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOConditionLock::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOConditionLock::free",
+    "IOConditionLock::initWithCondition",
+    "IOConditionLock::tryLock",
+    "IOConditionLock::lock",
+    "IOConditionLock::unlock",
+    "IOConditionLock::getInterruptible",
+    "IOConditionLock::getCondition",
+    "IOConditionLock::setCondition",
+    "IOConditionLock::lockWhen",
+    "IOConditionLock::unlockWith"
+  ]
+}

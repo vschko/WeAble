@@ -1,0 +1,19 @@
+{
+  "name": "OSIterator::MetaClass",
+  "vtable_entries": [
+    "OSIterator::MetaClass::~MetaClass",
+    "OSIterator::MetaClass::~MetaClass",
+    "OSMetaClass::release",
+    "OSMetaClass::getRetainCount",
+    "OSMetaClass::retain",
+    "OSMetaClass::release",
+    "OSMetaClass::serialize",
+    "OSMetaClass::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSMetaClass::taggedRetain",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClass::taggedRelease",
+    "OSMetaClassBase::Dispatch",
+    "OSIterator::MetaClass::alloc"
+  ]
+}

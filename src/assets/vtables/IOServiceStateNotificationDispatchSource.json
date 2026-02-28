@@ -1,0 +1,20 @@
+{
+  "name": "IOServiceStateNotificationDispatchSource",
+  "vtable_entries": [
+    "IOServiceStateNotificationDispatchSource::~IOServiceStateNotificationDispatchSource",
+    "IOServiceStateNotificationDispatchSource::~IOServiceStateNotificationDispatchSource",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOServiceStateNotificationDispatchSource::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "IOServiceStateNotificationDispatchSource::Dispatch",
+    "IOServiceStateNotificationDispatchSource::init",
+    "IOServiceStateNotificationDispatchSource::free"
+  ]
+}

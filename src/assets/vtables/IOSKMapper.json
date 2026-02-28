@@ -1,0 +1,20 @@
+{
+  "name": "IOSKMapper",
+  "vtable_entries": [
+    "IOSKMapper::~IOSKMapper",
+    "IOSKMapper::~IOSKMapper",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSObject::serialize",
+    "IOSKMapper::getMetaClass",
+    "OSMetaClassBase::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSObject::init",
+    "IOSKMapper::free"
+  ]
+}

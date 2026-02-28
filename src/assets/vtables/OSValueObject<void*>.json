@@ -1,0 +1,22 @@
+{
+  "name": "OSValueObject<void*>",
+  "vtable_entries": [
+    "OSValueObject<void*>::~OSValueObject",
+    "OSValueObject<void*>::~OSValueObject",
+    "OSObject::release",
+    "OSObject::getRetainCount",
+    "OSObject::retain",
+    "OSObject::release",
+    "OSValueObject<void*>::serialize",
+    "OSValueObject<void*>::getMetaClass",
+    "OSValueObject<void*>::isEqualTo",
+    "OSObject::taggedRetain",
+    "OSObject::taggedRelease",
+    "OSObject::taggedRelease",
+    "OSObject::Dispatch",
+    "OSValueObject<void*>::init",
+    "OSValueObject<void*>::free",
+    "OSValueObject<void*>::isEqualTo",
+    "OSValueObject<void*>::isEqualTo"
+  ]
+}
